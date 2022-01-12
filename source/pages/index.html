@@ -74,6 +74,13 @@
       href="favicons/favicon-128.png"
       sizes="128x128"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="mstile-144x144.png" />
@@ -83,5 +90,18 @@
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <title>Weather App</title>
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <h1 class="city"></h1>
+      <div class="temp-wrapper">
+        <p class="temp"></p>
+        <p class="temp-unit"></p>
+      </div>
+
+      <div class="desc-wrapper">
+        <p class="desc"></p>
+        <img class="icon" src="#" alt="" />
+      </div>
+    </div>
+  </body>
 </html>
