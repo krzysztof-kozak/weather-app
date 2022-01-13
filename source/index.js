@@ -6,7 +6,6 @@ const API_KEY = process.env.API_KEY;
 const CITY = 'London';
 const UNITS = 'metric';
 const WEATHER_URL = `https://api.openweathermap.org/data/2.5/weather?q=${CITY}&units=${UNITS}&appid=${API_KEY}`;
-// const FORECAST_URL = `api.openweathermap.org/data/2.5/forecast?q=${CITY}&appid=${API_KEY}`;
 
 const app = document.querySelector('#app');
 const cityElem = app.querySelector('.city');
