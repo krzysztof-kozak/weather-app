@@ -80,13 +80,12 @@ h1 {
 
 .city-input {
   padding: 8px;
-  background: hsl(222deg 11% 24%); /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
+  background: hsl(222deg 11% 24%);
   background: linear-gradient(
     to right,
     hsl(217deg 89% 61%),
     hsl(222deg 11% 24%)
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  );
   box-shadow: inset 0px 0px 4px 0px hsl(0deg 0% 100%);
 }
 
@@ -110,4 +109,15 @@ form {
   background-color: hsl(180deg 14% 99%);
   width: 50px;
   height: 50px;
+  cursor: pointer;
+}
+
+.error {
+  display: none;
+  width: fit-content;
+  margin-top: 16px;
+  margin-inline: auto;
+  color: hsl(0deg 100% 39%);
+  background-color: hsl(0deg 0% 100%);
+  padding: 2px 4px;
 }
